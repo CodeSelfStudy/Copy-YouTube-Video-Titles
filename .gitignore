@@ -1,0 +1,5 @@
+*~
+*.sw[op]
+*.py[oc]
+__pycache__/
+build/

@@ -1,0 +1,5 @@
+# Get Titles of YouTube Playlist
+
+This Chrome extension produces a list of YouTube videos in a give playlist.
+
+Go to a playlist page on YouTube and click the extension's button. The page will be replaced by a list of the videos in order.
