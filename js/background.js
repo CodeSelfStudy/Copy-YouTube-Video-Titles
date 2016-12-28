@@ -1,8 +1,7 @@
 chrome.browserAction.onClicked.addListener(function (tab) {
-    console.log('Fixing page');
     chrome.tabs.executeScript({
         code: `
-        if ((window.location.host === 'www.youtube.com') && (window.location.pathname.indexOf('playlist') == 1)) {
+        if ((window.location.host === 'www.youtube.com') && (window.location.pathname.indexOf('playlist') === 1)) {
 
             var videoLinks = document.querySelectorAll('a.pl-video-title-link');
 
