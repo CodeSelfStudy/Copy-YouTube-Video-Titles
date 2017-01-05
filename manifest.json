@@ -2,12 +2,14 @@
     "manifest_version": 2,
     "name": "Show YouTube Titles",
     "description": "Lists the video titles of a given YouTube playlist.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "permissions": [
         "activeTab"
     ],
     "background": {
-        "scripts": ["js/background.js"],
+        "scripts": [
+            "js/background.js"
+        ],
         "persistent": false
     },
     "browser_action": {

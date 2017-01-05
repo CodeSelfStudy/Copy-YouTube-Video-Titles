@@ -11,3 +11,7 @@ Get it [here](https://chrome.google.com/webstore/detail/show-youtube-titles/jcee
 # Build
 
 Run the `scripts/build.sh` file. It will delete the old build file and create a new one for upload.
+
+# TODO
+
+* Rewrite in ES6 or Typescript and compile to a single file.

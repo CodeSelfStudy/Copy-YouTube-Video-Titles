@@ -1,3 +1,5 @@
+# Run this script at the same level as the manifest.json file.
+# So, something like `$ ./scripts/build.sh`.
 build_it () {
     # Check if the output file exists.
     [ -f ./build/show-youtube-titles.zip ] && rm ./build/show-youtube-titles.zip || echo "Building"
