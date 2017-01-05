@@ -4,7 +4,7 @@ var scrape = function () {
         videoLinks = document.querySelectorAll('a.pl-video-title-link'),
         videoTitlesArr = [],
         urlTitle = 'Playlist URL:',
-        titlesTitle = 'The videos in the playlist:',
+        titlesTitle = 'Videos in the playlist:',
         titles, output, content;
 
     // Extract the video title text into videoTitlesArr
